@@ -1,1 +1,9 @@
+# Módulos: Aplicaciones Ofimáticas (0223) y BBDD (0224)
 
+Gestión documental y diseño lógico de datos de la empresa.
+
+### Documentación:
+* **Inventario**: Control total de activos y licencias en Excel.
+* **Registro de Incidencias**: Histórico de soporte técnico para el mantenimiento de la operatividad[cite: 1].
+* **Bases de Datos**: Diagrama Entidad-Relación para la gestión de jugadores, analistas y video-informes.
+* **Propuesta Cloud**: Solución de backup híbrido sincronizado para asegurar la disponibilidad de los datos.
