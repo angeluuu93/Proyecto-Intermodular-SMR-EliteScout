@@ -1,8 +1,22 @@
 # Módulo: Sistemas Operativos Monopuesto (0222)
 
-Documentación del despliegue y seguridad de las estaciones de trabajo.
+Este apartado contiene la documentación técnica sobre el despliegue, securización y administración de los equipos de **EliteScout S.L.**
 
-### Configuraciones aplicadas:
-* **Sistema**: Instalación limpia de Windows 11 Pro.
-* **Usuarios**: Gestión de perfiles (Administrador/Analista) mediante comandos `net user`.
-* **Seguridad**: Hardening mediante reglas de Firewall de Windows (puerto 445) y automatización de parches con `winget`.
+## 📑 Documentación Principal
+* **[Proyecto de Despliegue y Configuración](./PROYECTO%20DE%20DESPLIEGUE%20Y%20CONFIGURACIÓN%20DE%20SISTEMAS.docx)**: Manual completo que abarca desde la instalación hasta el hardening del sistema.
+
+## ⚙️ Hitos Técnicos del Proyecto
+1. **Instalación Profesional**: Despliegue de **Windows 11 Pro**, seleccionado por su capacidad de cifrado (BitLocker) y gestión avanzada de redes.
+2. **Hardening (Seguridad)**: 
+   - Configuración de reglas proactivas en el **Firewall de Windows** (bloqueo del puerto 445 para evitar ataques laterales).
+   - Aislamiento de datos mediante particionado lógico (Unidad E: para contenido multimedia).
+3. **Gestión de Identidades**:
+   - Creación de perfiles con privilegios segregados (`Admin_Elite` y `Analista_01`) mediante comandos `net user`.
+   - Control de grupos locales para asegurar el principio de mínimo privilegio.
+4. **Automatización de Mantenimiento**:
+   - Uso de **winget** para la instalación y actualización masiva de software corporativo (VLC, WinRAR), garantizando que el equipo esté siempre parcheado.
+
+## 🛠️ Herramientas Utilizadas
+* **Consola (CMD/PowerShell)**: Para la administración rápida de usuarios y red.
+* **Administrador de Discos**: Para la optimización del almacenamiento NVMe.
+* **Firewall con Seguridad Avanzada**: Para la protección perimetral del host.
