@@ -1,1 +1,8 @@
+# Módulo: Sistemas Operativos Monopuesto (0222)
 
+Documentación del despliegue y seguridad de las estaciones de trabajo.
+
+### Configuraciones aplicadas:
+* **Sistema**: Instalación limpia de Windows 11 Pro.
+* **Usuarios**: Gestión de perfiles (Administrador/Analista) mediante comandos `net user`.
+* **Seguridad**: Hardening mediante reglas de Firewall de Windows (puerto 445) y automatización de parches con `winget`.
