@@ -1,1 +1,9 @@
+# Módulo: Montaje y Mantenimiento de Equipos (0221)
 
+Este bloque detalla la selección de hardware y los planes de mantenimiento para **EliteScout S.L.**
+
+### Contenido técnico:
+* **Análisis de Necesidades**: Justificación de la cantidad de equipos y elección del NAS en RAID 1.
+* **Configuración de Hardware**: Ficha técnica del PC de Analista (i7-14700K + RTX 4070 SUPER).
+* **Guía de Montaje**: Proceso detallado de ensamblado y configuración de la BIOS.
+* **Mantenimiento**: Plan semestral de limpieza física y optimización lógica para evitar sobrecalentamientos por renderizado 4K.
