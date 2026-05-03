@@ -1,1 +1,9 @@
+# Módulo: Redes Locales (0225)
 
+Diseño y simulación de la infraestructura de red Gigabit para la oficina técnica.
+
+### Detalles de la Red:
+* **Topología**: Estrella cableada con conexión inalámbrica mediante Access Point.
+* **Hardware**: Router Cisco 2911 y Switch Cisco 2960.
+* **Plan de Direccionamiento**: IPs estáticas para garantizar la visibilidad del NAS (192.168.1.10) e impresoras (192.168.1.50).
+* **Simulación**: Archivo `.pkt` funcional con pruebas de ping realizadas entre todos los terminales y el Gateway.
